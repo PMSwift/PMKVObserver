@@ -14,6 +14,10 @@
 
 import Foundation
 
+#if canImport(PMKVObserverC)
+import PMKVObserverC
+#endif
+
 public typealias KVObserver = PMKVObserver
 
 extension KVObserver {
